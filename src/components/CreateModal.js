@@ -1,7 +1,7 @@
-import React from 'react'
+import React from 'react';
 
 const CreateModal = () => {
-    return <div>component 1</div>
-}
+    return <div>component 1</div>;
+};
 
-export default CreateModal
+export default CreateModal;

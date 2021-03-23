@@ -1,8 +1,8 @@
-import React, { useState } from 'react'
-import './App.css'
-import Table from './components/Table'
-import CreateModel from './components/CreateModal'
-import { EditModal } from './components/EditModal'
+import React, { useState } from 'react';
+import './App.scss';
+import Table from './components/Table';
+import CreateModel from './components/CreateModal';
+import { EditModal } from './components/EditModal';
 
 function App() {
     return (
@@ -12,7 +12,7 @@ function App() {
             <CreateModel />
             <EditModal />
         </div>
-    )
+    );
 }
 
-export default App
+export default App;
